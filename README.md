@@ -30,21 +30,21 @@ Networks
 
 Docker comes with its own networking capabilities. The name of a container is its hostname. The easiest way to try this is to have two containers running and ping one container from inside the other container. Docker Compose will raise its own subnet.
 
-Basic Docker commands:
+# Basic Docker commands:
 
-# docker run <image>
+ docker run <image>
   
-# docker start/stop <name/id>
+ docker start/stop <name/id>
 
-# docker ps [-a to list all the runnin containers including stopped]
+ docker ps [-a to list all the runnin containers including stopped]
 
-# docker rm <name/id>
+ docker rm <name/id>
 
-# docker build -t image-name - to build a docker image
+ docker build -t image-name - to build a docker image
 
-# docker run -it image-name bash - to start a docker image
+ docker run -it image-name bash - to start a docker image
 
-# docker exec -it <container name> /bin/bash - to login to running container
+ docker exec -it <container name> /bin/bash - to login to running container
  
 The CMD keyword is for what will run as soon as you start up the container (could be any .sh script of course to make it more elaborated)
 
