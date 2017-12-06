@@ -49,3 +49,5 @@ Docker comes with its own networking capabilities. The name of a container is it
 The CMD keyword is for what will run as soon as you start up the container (could be any .sh script of course to make it more elaborated)
 
 The RUN keyword is if you want to install anything inside your container
+
+http://takacsmark.com/getting-started-with-docker-in-your-project-step-by-step-tutorial/
